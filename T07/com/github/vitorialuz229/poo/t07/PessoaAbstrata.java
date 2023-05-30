@@ -1,4 +1,4 @@
-package output.projetos.T07;
+package com.github.vitorialuz229.poo.t07;
 
 public class Pessoa1 {
     private Data nascimento;
