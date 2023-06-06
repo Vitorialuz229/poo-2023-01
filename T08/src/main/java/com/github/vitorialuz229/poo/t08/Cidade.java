@@ -1,9 +1,10 @@
-package main.java.com.github.vitorialuz229.poo.t08;
+package src.main.java.com.github.vitorialuz229.poo.t08;
 
 public class Cidade {
     private Pais pais;
 
-    public Cidade() { // construtor da cidade
+    public Cidade() {
+
     }
 
     public Pais getPais() { // método de acesso para o País
