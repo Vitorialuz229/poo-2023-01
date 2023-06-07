@@ -1,4 +1,4 @@
-package main.java.com.github.vitorialuz229.poo.t08;
+package com.github.vitorialuz229.poo.t08;
 
 import java.util.TreeSet;
 

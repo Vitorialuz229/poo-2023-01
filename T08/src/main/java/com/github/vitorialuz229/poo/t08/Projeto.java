@@ -1,6 +1,6 @@
-package src.main.java.com.github.vitorialuz229.poo.t08;
+package com.github.vitorialuz229.poo.t08;
 
-import main.java.com.github.vitorialuz229.poo.t08.Linguagem;
+import java.util.ArrayList;
 
 public class Projeto {
     private Linguagem[] linguagem;
