@@ -3,11 +3,14 @@ package com.github.vitorialuz229.poo.t08;
 public class Cidade {
     private Pais pais;
 
-    public Cidade() {
+    // Construtor da Cidade
 
+    public Cidade() {
     }
 
-    public Pais getPais() { // método de acesso para o País
+    // Métodos de acesso para o País
+
+    public Pais getPais() {
         return pais;
     }
 

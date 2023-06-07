@@ -1,13 +1,17 @@
+package com.github.vitorialuz229.poo.t08;
+
 import java.util.TreeSet;
 
 public class Paragrafo {
-    private TreeSet setencas = new TreeSet();
+   private TreeSet sentencas = new TreeSet<>();
 
-    public void novaSetenca(Setenca s) {
-        setencas.add(s);
-    }
+   public void novaSentenca(Sentenca c) {
+      sentencas.add(c);
 
-    public Paragrafo(Setenca s) {
-        setencas.add(s);
-    }
+   }
+
+   public Paragrafo(Sentenca c) {
+      sentencas.add(c);
+   }
+
 }
