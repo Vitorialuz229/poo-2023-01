@@ -6,16 +6,15 @@ public class Circulo {
     private int raio;
 
     private Ponto centro = new Ponto();
-    
-    private List<Ponto> pontos; 
-    public void novoPonto(Ponto ponto) { 
+
+    private List<Ponto> pontos;
+
+    public void novoPonto(Ponto ponto) {
         pontos.add(ponto);
     }
-    
-public void transladar(int dx, int dy) { 
 
+    public void transladar(int dx, int dy) {
 
-}
-
+    }
 
 }

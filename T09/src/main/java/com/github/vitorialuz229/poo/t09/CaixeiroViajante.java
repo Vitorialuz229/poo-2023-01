@@ -2,6 +2,6 @@
 import java.util.ArrayList;
 
 public class CaixeiroViajante {
-   
-    ArrayList<Viagem> viagens; 
+
+    private ArrayList<Viagem> viagens;
 }

@@ -1,5 +1,5 @@
 public class Lista {
 
-    Viagem[] viagem;
-    Armazem[] armazem;
+    private Viagem[] viagem;
+    private Armazem[] armazem;
 }

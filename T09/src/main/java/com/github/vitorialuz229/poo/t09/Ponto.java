@@ -4,12 +4,12 @@ public class Ponto {
     private int x;
     private int y;
 
-    public Ponto(Circulo circulo) { 
+    public Ponto(Circulo circulo) {
         circulo.novoCirculo(this);
     }
 
-public void transladar(int dx, int dy) {
-    
-}
+    public void transladar(int dx, int dy) {
+
+    }
 
 }

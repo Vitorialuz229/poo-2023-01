@@ -1,10 +1,10 @@
 import java.util.ArrayList;
 
 public class Viagem {
-    
-    CaixeiroViajante caixeiroViajante;
-    
-    ArrayList <Cidade> cidades; 
 
-    ArrayList <Lista> listas; 
+    private CaixeiroViajante caixeiroViajante;
+
+    private ArrayList<Cidade> cidades;
+
+    private ArrayList<Lista> listas;
 }

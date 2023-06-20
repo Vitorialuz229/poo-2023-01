@@ -2,7 +2,7 @@ import java.util.ArrayList;
 
 public class Cidade {
 
-    ArrayList<Viagem> viagens;
+    private ArrayList<Viagem> viagens;
 
-    ArrayList<Armazem> armazens;
+    private ArrayList<Armazem> armazens;
 }
