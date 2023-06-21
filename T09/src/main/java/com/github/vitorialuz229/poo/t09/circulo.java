@@ -1,20 +1,11 @@
 package com.github.vitorialuz229.poo.t09;
 
-import java.util.ArrayList;
-
 public class Circulo {
-    private int raio;
+    int x;
+    int y;
+    float raio;
 
-    private Ponto centro = new Ponto();
-
-    private List<Ponto> pontos;
-
-    public void novoPonto(Ponto ponto) {
-        pontos.add(ponto);
+    int transladar(int dx, int dy) {
+        return dy;
     }
-
-    public void transladar(int dx, int dy) {
-
-    }
-
 }

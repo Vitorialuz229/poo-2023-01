@@ -1,7 +1,7 @@
 import java.util.ArrayList;
 
 public class Cliente {
+    private Transacao[] transacoes;
 
-    private ArryList<Transacao> transacoes;
-    private Fornecedor[] fornecedor;
+    private ArryList<Transacao> transacoes1;
 }
