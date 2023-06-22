@@ -11,10 +11,6 @@ public class Compartimento {
 
     private ArrayList<Livro[]> livro = new ArrayList<Livro[]>();
 
-    String[] guardaLivro(Livro[] livro, int posicao) {
-        livrosGuardados[posicao] = livro.nome;
-        return livrosGuardados;
-
-    }
-
+    
+    
 }
