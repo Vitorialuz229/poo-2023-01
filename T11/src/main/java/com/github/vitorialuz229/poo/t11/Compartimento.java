@@ -11,6 +11,4 @@ public class Compartimento {
 
     private ArrayList<Livro[]> livro = new ArrayList<Livro[]>();
 
-    
-    
 }
