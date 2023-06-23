@@ -1,5 +1,7 @@
 package com.github.vitorialuz229.poo.t11;
 
-public class Cd {
-
+public class Cd extends Objeto {
+    public Cd(String nome) {
+        super(nome);
+    }
 }
