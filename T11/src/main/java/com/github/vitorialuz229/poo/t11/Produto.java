@@ -4,5 +4,5 @@ import java.util.ArrayList;
 
 public class Produto {
 
-    private ArrayList<ItemCompra> itensCompras; 
+    private ArrayList<ItemCompra> itensCompra[]; 
 }
