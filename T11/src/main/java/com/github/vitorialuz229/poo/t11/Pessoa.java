@@ -1,4 +1,4 @@
-package com.github.vitorialuz229.poo.t11;
+package main.java.com.github.vitorialuz229.poo.t11;
 
 public class Pessoa {
     public String nome; 
