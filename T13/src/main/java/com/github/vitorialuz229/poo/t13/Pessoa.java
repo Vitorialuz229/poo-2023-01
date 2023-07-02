@@ -2,14 +2,14 @@ package com.github.vitorialuz229.poo.t13;
 
 import java.util.Scanner;
 
-public class Cadastro {
+public class Pessoa {
   private String nome;
   private String sobrenome;
   private String email;
   private String telefone;
   private String cpf;
 
-  public Cadastro(String nome, String sobrenome, String email, String telefone, String cpf) {
+  public Pessoa(String nome, String sobrenome, String email, String telefone, String cpf) {
     this.nome = nome;
     this.sobrenome = sobrenome;
     this.email = email;
@@ -77,13 +77,13 @@ public class Cadastro {
     System.out.print("CPF: ");
     String cpf = scanner.nextLine();
 
-    Cadastro cadastro = new Cadastro(nome, sobrenome, email, telefone, cpf);
+    Pessoa pessoa = new Pessoa(nome, sobrenome, email, telefone, cpf);
 
     System.out.println("\nInformações da Pessoa:");
-    System.out.println("Nome: " + cadastro.getNome());
-    System.out.println("Sobrenome: " + cadastro.getSobrenome());
-    System.out.println("E-mail: " + cadastro.getEmail());
-    System.out.println("Telefone: " + cadastro.getTelefone());
-    System.out.println("CPF: " + cadastro.getCpf());
+    System.out.println("Nome: " + pessoa.getNome());
+    System.out.println("Sobrenome: " + pessoa.getSobrenome());
+    System.out.println("E-mail: " + pessoa.getEmail());
+    System.out.println("Telefone: " + pessoa.getTelefone());
+    System.out.println("CPF: " + pessoa.getCpf());
   }
 }
